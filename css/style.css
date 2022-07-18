@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+body {
+    height: 100%;
+    color: white;
+    font-family: 'Raleway', sans-serif;;
+    background: rgb(21,8,233);
+    background: linear-gradient(180deg, rgba(21,8,233,1) 32%, rgba(19,35,124,1) 68%);
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.avatar {
+    width: 120px;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 100;
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+h3 {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.profile {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+button img {
+    width: 26px;
+    margin-left: 15px;
+}
+
+button {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-radius: 50px;
+    border: 2px solid black;
+    width: 280px;
+    margin: 8px auto;
+}
+
+button p {
+    font-size: 18px;
+    margin: auto;
+    color: black;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 20px white;
+    transform: scale(1.1);
+    font-weight: bold;
+}
